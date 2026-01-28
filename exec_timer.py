@@ -311,7 +311,7 @@ else:
         GLOBAL_STEP += 1
 
         print(
-            f"[Exec_Timer] Node Exec Finished | Class Type{class_type:25s} | Front ID: {display_id:5s} | Execution Time: {exec_time_ms} ms | Unique_id: {unique_id}"
+            f"[Exec_Timer] Node Exec Finished | Class Type: {class_type:25s} | Front ID: {display_id:5s} | Execution Time: {exec_time_ms} ms | Unique_id: {unique_id}"
         )
 
         return result
